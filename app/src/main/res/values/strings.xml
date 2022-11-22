@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ThePlatform</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="main_title1">اجعل التعليم متاحا فى أى مكان</string>
+    <string name="sub_title1">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص.</string>
+    <string name="main_title2">قم بتمكين تجربة التعلم الخاصة بك</string>
+    <string name="email">البريد الالكترونى</string>
+    <string name="password">كلمة السر</string>
+    <string name="forgetPassword">نسيت كلمة المرور؟</string>
+    <string name="login_btn">تسجيل الدخول</string>
+
+    <string name="regiseter">قم بانشاء حساب</string>
+    <string name="donot_have_an_account" translatable="false">لا تمتلك حساب؟</string>
+    <string name="or">أو</string>
+    <string name="login_by_google">تسجيل بواسطة جوجل</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="login_by_apple">تسجيل بواسطه ابل</string>
+    <string name="login_by_facebook">تسجيل بواسطة فيسبوك</string>
+    <string name="register">حساب جديد</string>
+
+</resources>

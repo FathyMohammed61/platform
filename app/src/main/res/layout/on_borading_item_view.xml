@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:background="#EBD6EF"
+        android:layout_height="match_parent">
+
+    <ImageView
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:src="@drawable/img_1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="36dp"
+            android:id="@+id/imageView2" />
+
+    <ImageView
+            android:id="@+id/image_on_boarding"
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            android:src="@drawable/on_boarding_two"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            android:layout_marginTop="56dp"
+            app:layout_constraintHorizontal_bias="0.0" />
+
+    <TextView
+            android:id="@+id/tv_main"
+            android:layout_width="247dp"
+            android:layout_height="75dp"
+            android:text="@string/main_title1"
+            android:gravity="center_horizontal|top"
+            android:textStyle="bold"
+            android:fontFamily="@font/ff_shamel_sans"
+            android:textColor="#141F1F"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_on_boarding"
+            android:layout_marginTop="44dp" />
+
+    <TextView
+            android:id="@+id/tv_sub"
+            android:layout_width="247dp"
+            android:layout_height="75dp"
+            android:textSize="15sp"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/ff_shamel_sans_one"
+            android:textColor="#A4ACAD"
+            android:gravity="center"
+            android:text="@string/sub_title1"
+            app:layout_constraintTop_toBottomOf="@+id/tv_main"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
