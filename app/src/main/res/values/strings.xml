@@ -18,5 +18,9 @@
     <string name="login_by_apple">تسجيل بواسطه ابل</string>
     <string name="login_by_facebook">تسجيل بواسطة فيسبوك</string>
     <string name="register">حساب جديد</string>
+    <string name="full_name">الأسم اكامل</string>
+    <string name="btn_create_account">إنشاء حساب جديد</string>
+    <string name="have_account">تمتلك حساب بالفعل؟</string>
+    <string name="login_text">تسجيل الدخول</string>
 
 </resources>
