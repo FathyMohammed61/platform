@@ -31,7 +31,7 @@ class RegisterFragment : Fragment() {
                     etPasswordRegister.error = "must more 8 character "
 
                 } else {
-                    Toast.makeText(activity, "login", Toast.LENGTH_LONG).show()
+                    Toast.makeText(activity, "Account Created", Toast.LENGTH_LONG).show()
                 }
             }
 

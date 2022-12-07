@@ -62,7 +62,7 @@ class OnBoardingFragment : Fragment() {
         return dataList
     }
 
-    fun setUpIndicator() {
+    private fun setUpIndicator() {
         binding.apply {
             vp2.adapter = onBoardingAdaptor
             dotsIndicator.apply {
@@ -71,11 +71,9 @@ class OnBoardingFragment : Fragment() {
         }
     }
 
-    fun navToLogin() {
+    private fun navToLogin() {
         binding.btnNext.setOnClickListener {
             findNavController().navigate(R.id.action_onBoardingFragment2_to_loginFragment)
         }
-
     }
-
 }
